@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- *add - adds the top two elements of the stack.
+ *add - adds the top two elements of stack.
  *@stack: pointer to the top of the stack
  *@line_number: the line number intrepted
  *
