@@ -2,11 +2,10 @@
 
 char *line;
 /**
- *main - entry point for interpretor
- *@argc: the number of command line arguments
- *@argv: the array of command line argument strings
- *
- *Return: 0 always
+ * main - entry point for interpretor
+ * @argc: the number of command line arguments
+ * @argv: the array of command line argument strings
+ * Return: 0 always
  */
 int main(int argc, char **argv)
 {
