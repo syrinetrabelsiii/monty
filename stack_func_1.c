@@ -1,10 +1,9 @@
 #include "monty.h"
 /**
- *push - pushes an element to the stack.
- *@stack: pointer to the top of the stack
- *@line_number: the line number of the command interpted
- *
- *Return: void
+ * push - pushes an element to the stack.
+ * @stack: pointer to the top of stack
+ * @line_number: the line number of the command interpted
+ * Return: void
  */
 void push(stack_t **stack, unsigned int line_number)
 {
@@ -60,11 +59,10 @@ void push(stack_t **stack, unsigned int line_number)
 }
 
 /**
- *pop -  removes the top element of the stack
- *@stack: pointer to the top of the stack
- *@line_number: the line number of the command interpted
- *
- *Return: void
+ * pop -  removes the top element of the stack
+ * @stack: pointer to the top of the stack
+ * @line_number: the line number of the command interpted
+ * Return: void
  */
 void pop(stack_t **stack, unsigned int line_number)
 {
@@ -86,11 +84,10 @@ void pop(stack_t **stack, unsigned int line_number)
 }
 
 /**
- *swap - swaps the top two values of the stack
- *@stack: pointer to the top of the stack
- *@line_number: the line number of the command interpted
- *
- *Return: void
+ * swap - swaps the top two values of the stack
+ * @stack: pointer to the top of the stack
+ * @line_number: the line number of the command interpted
+ * Return: void
  */
 void swap(stack_t **stack, unsigned int line_number)
 {
