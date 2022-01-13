@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
-*get_func - compares opcodes and runs associated functions
+*get_func - compares opcodes
 *@stack: pointer to the top of the stack
 *@line_number: line number of command
-*@opcode: the opcode
+*@opcode: opcode
 *Return: void
 */
 void get_func(stack_t **stack, unsigned int line_number, char *opcode)
