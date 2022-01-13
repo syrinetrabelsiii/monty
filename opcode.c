@@ -1,8 +1,7 @@
 #include "monty.h"
 /**
- *get_opcode - get the opcode of a Monty file
- *
- *Return: pointer to a string containing the opcode
+ * get_opcode - get the opcode of a Monty file
+ * Return: pointer to a string containing the opcode
  */
 char *get_opcode(void)
 {
